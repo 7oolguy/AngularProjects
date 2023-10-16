@@ -1,0 +1,17 @@
+<div class="center">
+    <div class="tag-container">
+        <p class="tag">Nome: </p>
+        <input (input)="onNameChange($event)" placeholder="TypeNameHere">
+    </div>
+    <div class="tag-container">
+        <p class="tag">Sobrenome: </p>
+        <input (input)="onLNameChange($event)" placeholder="TypeLastNameHere">
+    </div>
+    <div class="tag-container">
+        <p class="tag">age: </p>
+        <button class="body-button" (click)="diminuiNum($event)">-</button>
+        <span>{{ person.age }}</span>
+        <button class="body-button" (click)="aumentaNum($event)">+</button>
+    </div>
+</div>
+<app-button-body></app-button-body>

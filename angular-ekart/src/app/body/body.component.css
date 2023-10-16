@@ -1,0 +1,25 @@
+.center {
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+.center .tag-container {
+  margin: 10px;
+  height: 20px;
+}
+.center .tag-container input {
+  padding: 0 5px;
+  margin: 0 5px;
+}
+.center .tag-container .body-button {
+  color: black;
+  background-color: lightgray;
+  padding: 1px 1px;
+  margin: 2px 2px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.center .tag-container .body-button:hover {
+  background-color: darkslategray;
+}
